@@ -1,7 +1,6 @@
-from __future__ import unicode_literals
-# Create your models here.
 from django.db import models
 from django.utils import timezone
+
 
 class Post(models.Model):
     author = models.ForeignKey('auth.User')
