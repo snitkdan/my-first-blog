@@ -4,6 +4,3 @@ blog
 db.sqlite3
 /static
 .DS_Store
-settings.py
-settings.pyc
-
