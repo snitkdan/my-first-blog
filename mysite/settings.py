@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blog.wsgi.application'
+WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
 # Database
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+    'ENGINE': 'django.db.backends.mysql',
 	'NAME': 'blogapp',
 	'USER': 'snitkdan',
 	'PASSWORD': 'Daniel27876',
